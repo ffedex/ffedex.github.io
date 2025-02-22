@@ -1,4 +1,4 @@
--- I SWEAR NO MODIFS (hehe)
+-- I SWEAR NO MODIFS heh
 
 -- shuts down the previous instance of SimpleSpy
 if _G.SimpleSpyExecuted and type(_G.SimpleSpyShutdown) == "function" then
