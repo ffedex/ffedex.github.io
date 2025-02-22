@@ -4444,11 +4444,6 @@ spawn(function()
 	end
 end)
 
-addcmd("camlock",{'cam','lock'},function(args, speaker)
-        print("camlock loaded heh")
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ffedex/ffedex.github.io/refs/heads/main/CamLock."))()
-end)
-
 CMDs = {}
 CMDs[#CMDs + 1] = {NAME = 'console', DESC = 'Loads old Roblox console'}
 CMDs[#CMDs + 1] = {NAME = 'unc / unctest / unccheckevn', DESC = 'Tests all UNC Environment'}
@@ -10951,6 +10946,11 @@ end)
 addcmd("addunc",{'addmoreunc','adduncevn'},function(args, speaker)
 	loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-MoreUNC-13110"))()
 	notify("Adding some UNC (Thanks to the community) (WARNING THIS MAY REMOVE SOME UNC)")
+end)
+
+addcmd("camlock",{'cam','lock'},function(args, speaker)
+        print("camlock loaded heh")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ffedex/ffedex.github.io/refs/heads/main/CamLock."))()
 end)
 
 addcmd("vulnspatch",{'vpatcher','vulnspatcher'},function(args, speaker)
